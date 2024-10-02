@@ -29,7 +29,7 @@ work:
     positions:
       - position: Full Stack Developer
         startDate: 2023-07-01
-        endDate: "present"
+        endDate: 2024-10-01
         highlights:
           - "Developed a full stack Remix application for internal order management and the order panel for customers."
   - organization: Phantom Network
