@@ -11,6 +11,10 @@
     "languages"
   ],
   "properties": {
+    "language": {
+      "type": "boolean",
+      "default": "en"
+    },
     "personal": {
       "type": "object",
       "default": {},

@@ -1,11 +1,11 @@
 // #import "@preview/imprecv:1.0.0": *
 #import "imprecv/cv.typ": *
 
-#let cvdata = yaml("cv.yml")
+#let cvdata = yaml("cv-tr.yml")
 
 #let uservars = (
-    headingfont: "Libertinus Serif",
-    bodyfont: "Libertinus Serif",
+    headingfont: "Aptos",
+    bodyfont: "Aptos",
     fontsize: 10pt, // 10pt, 11pt, 12pt
     linespacing: 6pt,
     sectionspacing: 0pt,

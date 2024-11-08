@@ -1,19 +1,19 @@
 # yaml-language-server: $schema=imprecv/cv.typ.schema.json
-
+language: tr
 personal:
   name: Tunahan Karlibas
   email: dvt.tnhn.krlbs@icloud.com
-  phone: redacted
+  # phone: redacted
   # url: https://tunahan.me
   titles:
-    - Full Stack Developer
+    - Full Stack Geliştirici
     # - Data Analyst
     # - Entrepreneur
   location:
-    city: Istanbul
+    city: İstanbul
     # region: ""
     # postalCode: 347622
-    country: Turkey
+    country: Türkiye
   profiles:
     - network: LinkedIn
       username: Tunahan Karlibas
@@ -25,62 +25,63 @@ personal:
 work:
   - organization: Arma Dental
     url: https://armaera.com
-    location: Istanbul - Turkey (Remote)
+    location: İstanbul - Türkiye (Uzaktan)
     positions:
-      - position: Full Stack Developer (Contract)
+      - position: Full Stack Developer (Sözleşmeli)
         startDate: 2023-07-01
         endDate: 2024-10-01
         highlights:
-          - "Developed a full stack Remix application for internal order management and the order panel for customers."
+          - Sipariş takip sistemi için GraphQL apisi geliştirildi
+          - Sipariş takip sistemi için Remix uygulaması geliştirildi
   - organization: Phantom Network
     url: https://phantom.sh
-    location: Remote
+    location: Uzaktan
     positions:
-      - position: Rust Developer (Contract)
+      - position: Rust Developer (Sözleşmeli)
         startDate: 2022-06-01
         endDate: 2022-12-15
         highlights:
-          - Worked on an existing Rust based chatting backend to improve and add functionalities to it.
-          - Created a Websocket based event system for the chatting solution where it also handled presence.
-          - Worked on Serverless project that fetched and cached NFT media for the users of the chattings solution.
+          - Varolan Rust, MongoDB ve Rocket tabanlı mesajlaşması geliştirilip yeni özellikler eklendi.
+          - Yeni bir mesajlaşma sistemi için WebSocket tabanlı varlık ve olay sistemi geliştirildi.
+          - Mesajlaşma sisteminde 3. parti avatarların yüklenmesi için Serverless bir sistem geliştirildi.
   - organization: Non Disclosed Company
     url: N/A
-    location: Remote
+    location: Uzaktan
     positions:
-      - position: Rust Developer (Contract)
+      - position: Rust Developer (Sözleşmeli)
         startDate: 2021-08-01
         endDate: 2022-05-01
         highlights:
-          - Created a Rust based server side rendered that worked with a complex social graphs
-          - Optimized the existing SQL pipelines for efficiency
+          - Sosyal ağ analizi verileri görselleştirmesi için Rust tabanlı sunucu tarafından işlenen Web Sistemi geliştirildi
+          - İşlenmiş veri sorguları optimize edildi
   - organization: Accenture
     url: https://accenture.com
-    location: Istanbul, Turkey (Remote)
+    location: İstanbul, Türkiye (Uzaktan)
     positions:
       - position: Frontend Developer
         startDate: 2021-06-01
         endDate: 2019-08-01
         highlights:
-          - Worked with a leading pharmaceutical company on the development of Stencil based Web Component UI Library
+          - Önde gelen bir eczacılık şirketi için Stencil tabanlı bir Web Component arayüz kütüphanesinin geliştirilmesinde çalışıldı
 
   - organization: Pointo
     url: https://pointo.com.tr
-    location: Ankara, Turkey (Remote)
+    location: Ankara, Türkiye (Uzaktan)
     positions:
       - position: Frontend Developer
         startDate: 2021-02-01
         endDate: 2021-06-01
         highlights:
-          - "Migrated an old admin panel template to modern React also created the Webpack based build system"
+          - Varolan sistemin Gulp tabanlı inşa sistemi Webpack tabanlı modern bir sisteme taşındı
 
 education:
-  - institution: Istanbul Kultur University
+  - institution: İstanbul Kültür Üniversitesi
     url: https://iku.edu.tr/
-    area: Computer Engineering
-    studyType: Bachelor of Engineering
+    area: Bilgisayar Mühendisliği
+    studyType: Mühendislik Fakültesi
     startDate: 2018-08-01
     endDate: "present"
-    location: Yenibosna, Istanbul
+    location: Yenibosna, İstanbul
     honors:
       # - 4.0 / 4.0 GPA
       # - President's List
@@ -146,30 +147,30 @@ publications:
     # url: https://example.com
 
 projects:
-  - name: "Team Member"
+  - name: "Takım Üyesi"
     url: "N/A"
-    affiliation: "Teknofest GTU Nova Drone Team"
+    affiliation: "Teknofest GTU Nova Dron Takımı"
     # startDate: "Present"
     # endDate: "N/A"
     highlights:
-      - "Learned a lot about drones and its internals."
-      - "Worked with modern protocols used with drones (Mavlink)"
-      - "Built a Golang based flight control system to achieve competition goals."
-      - "Used OpenCV for object detection."
-  - name: "Team Member"
+      - İçten dışa dronların çalışma sistemi üzerine eğitim alındı
+      - Çeşitli dron iletişim sistemleri ile çalışıldı (Mavlink, INav)
+      - Golang tabanlı yardımcı uçuş kontrol sistemmi geliştirildi
+      - OpenCV ile nesne tanımlama sistemi geliştirildi
+  - name: "Takım Üyesi"
     url: "N/A"
-    affiliation: "Software Engineering Course Coronavirus project"
+    affiliation: Bilgisayar Mühendisliği Dersi Koronavirüs Projesi
     highlights:
-      - "Built a React based dashboard to show daily Coronavirus infections."
-      - "Built a Dotnet based api for serving the data to the frontend."
-      - "Built a Golang based data ingestion system to get the Coronavirus data."
+      - Günlük virüs rakamlarının görüntülenmesi için React tabanlı bir arayüz geliştirildi
+      - Arayüze veri akışı için Dotnet tabanlı API geliştirildi
+      - Virüs verilerinin dışarıdan alınıp işlenmesi için Golang tabanlı bir sistem geliştirildi
   - name: "Contributor"
     url: "N/A"
     affiliation: Twilight, Boa, Rustc
     highlights:
-      - Added SIMD Json support to achieve faster gateway communication between Discord and the library (Twilight).
-      - Added floating point formatting support (Boa).
-      - Worked on the process of migrating the bootstrap process from Python to Rust (Rustc).
+      - Kütüphanenin Discord geçidi ile iletişimindeki verinin daha hızlı işlenmesi için SIMD Json desteği eklendi (Twilight)
+      - Standarda uygun kayan noktalı numara görüntüleme desteği eklendi (Boa)
+      - Rust derleyicisinin bootstrap sisteminin Pythondan Rusta taşınmasında yer alındı (Rustc)
 
 skills:
   # - category: Soft Skills
@@ -181,7 +182,7 @@ skills:
       # - Leadership
       # - Persuasive Writing
       # - Technical Writing
-  - category: Programming
+  - category: Programlama Dilleri
     skills:
       - Rust
       - Typescript
@@ -190,13 +191,13 @@ skills:
       - HTML
       - CSS
       - SQL, Postgres
-  - category: Tools
+  - category: Araçlar
     skills:
       - Git
       - Docker
       # - Visual Studio Code
       # - Canva
-  - category: Web Development
+  - category: Web Geliştirmesi
     skills:
       - React
       - Next.js
@@ -205,10 +206,10 @@ skills:
       - Node.js
 
 languages:
-  - language: English
-    fluency: Native proficiency
-  - language: Turkish
-    fluency: Native speaker
+  - language: İngilizce
+    fluency: C1
+  - language: Türkçe
+    fluency: Anadil
   # - language: Japanese
     # fluency: Basic proficiency
 

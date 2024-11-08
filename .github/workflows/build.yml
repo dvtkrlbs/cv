@@ -12,10 +12,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Typst
-        uses: lvignoli/typst-action@main
-        with:
-          source_file: cv.typ
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v3
+
+      - run: typst compile cv.typ --font-path fonts
+
+      - run: typst compile cv-tr.typ --font-path fonts
 
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
@@ -32,4 +34,6 @@ jobs:
         if: github.ref_type == 'tag'
         with:
           name: "${{ env.DATE }}"
-          files: cv.pdf
+          files: |
+            cv.pdf
+            cv-tr.pdf
