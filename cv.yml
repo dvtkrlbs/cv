@@ -23,6 +23,12 @@ personal:
       url: https://github.com/dvtkrlbs
 
 work:
+  - organization: Freelance
+    location: Remote
+    positions:
+      - position: Full Stack Developer
+        highlights: "React, Rust and Go projects"
+        startDate: 2021-01-01
   - organization: Arma Dental
     url: https://armaera.com
     location: Istanbul - Turkey (Remote)
