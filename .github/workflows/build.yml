@@ -1,8 +1,8 @@
 name: Build Typst document
 on:
   push:
-    tags:
-      - '*'
+    branches:
+      - 'main'
 permissions:
   contents: write
 
